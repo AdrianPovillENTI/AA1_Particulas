@@ -375,7 +375,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.00172
-  initialVelocity: {x: 0, y: 0, z: 0.146}
 --- !u!1 &307266176
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,7 +525,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.3
-  initialVelocity: {x: 0, y: 0, z: 1.98}
   planetas:
   - {fileID: 557990498}
 --- !u!1 &308997820
@@ -590,7 +588,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.017
-  initialVelocity: {x: 0, y: 0, z: 2.63}
 --- !u!135 &308997823
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -812,7 +809,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.515
-  initialVelocity: {x: 0, y: 0, z: 1.335}
 --- !u!135 &375206778
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1271,7 +1267,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.00024
-  initialVelocity: {x: 0, y: 0, z: 0.18}
 --- !u!1 &447359775 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1288793558353234, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
@@ -1351,7 +1346,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.00037
-  initialVelocity: {x: 0, y: 0, z: 0.036}
 --- !u!135 &557990499
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1564,7 +1558,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 9.55
-  initialVelocity: {x: 0, y: 0, z: 1.57}
   planetas:
   - {fileID: 599151207}
   - {fileID: 438040252}
@@ -1733,7 +1726,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.0245
-  initialVelocity: {x: 0, y: 0, z: 2.29}
 --- !u!135 &590540256
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1970,7 +1962,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.00045
-  initialVelocity: {x: 0, y: 0, z: 0.167}
 --- !u!1001 &655318798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2017,7 +2008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4799057029891002, guid: c91342f6e3afc48fd958056404ead345, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4799057029891002, guid: c91342f6e3afc48fd958056404ead345, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2029,7 +2020,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4799057029891002, guid: c91342f6e3afc48fd958056404ead345, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4799057029891002, guid: c91342f6e3afc48fd958056404ead345, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2041,7 +2032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4799057029891002, guid: c91342f6e3afc48fd958056404ead345, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3181,7 +3172,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.0239
-  initialVelocity: {x: 0, y: 0, z: 0.155}
 --- !u!1 &1044532346
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,7 +3375,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 2.86
-  initialVelocity: {x: 0, y: 0, z: 1.44}
 --- !u!135 &1079916284
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4414,7 +4403,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.0032
-  initialVelocity: {x: 0, y: 0, z: 1.8}
 --- !u!135 &1544268707
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4834,7 +4822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1f92d571f16c44489a608c8b5488625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
+  rotationSpeed: -10
 --- !u!4 &1644505015 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4693579709242440, guid: f9a741bb8762344c6a2a9cb4217ef728, type: 3}
@@ -5136,7 +5124,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 10000
-  initialVelocity: {x: 0, y: 0, z: 0}
   planetas:
   - {fileID: 308997822}
   - {fileID: 590540255}
@@ -5468,7 +5455,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0.437
-  initialVelocity: {x: 0, y: 0, z: 1.25}
 --- !u!135 &2117100215
 SphereCollider:
   m_ObjectHideFlags: 0

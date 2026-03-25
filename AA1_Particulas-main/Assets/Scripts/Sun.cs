@@ -6,6 +6,13 @@ public class Sun : Planeta
 {
     [SerializeField] private Planeta[] planetas;
 
+    private void Awake()
+    {
+        foreach (Planeta planet in planetas)
+        {
+            planet.CalculateInitialVelocity(mass, transform.position);
+        }
+    }
     // Update is called once per frame
     void FixedUpdate()
     {
